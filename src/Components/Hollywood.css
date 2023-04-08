@@ -1,0 +1,120 @@
+.link:hover{
+    text-decoration: none;
+}
+@media (max-width:1600px) and (min-width:1300px){
+    .bollywoodContainer{
+        margin: auto;
+        
+    }
+    .hcontainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:70%;
+        margin: auto;
+        padding: 5px;
+        justify-content: space-between;
+        
+    }
+    .date{
+        margin-top: 12px !important;
+        font-size: 12px;
+        color: #a09999;
+    }
+    .description{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        font-size: 13px;
+        -webkit-box-orient: vertical;
+        color:dodgerblue;
+    }
+    .title{
+        color:rgb(91, 89, 89);
+    }
+  .holly-left{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+  }
+    .himg{
+        width:200px;
+        height: 200px;
+    }
+    .htext{
+        margin-left: 20px;
+    }
+    .child1{
+        display:flex;
+        flex-direction: row;
+        /* width:50%; */
+        margin-bottom: 20px;
+    }
+  
+    .holly-right{
+        width:30%;
+        /* height:200px; */
+        border: 2px solid black;
+        text-align: center;
+    }
+   
+}
+@media (max-width:1299px) and (min-width:300px){
+    .bollywoodContainer{
+        margin: auto;
+        
+    }
+    .holly-left{
+        display: flex;
+        flex-direction: column;
+        /* width:400px; */
+      }
+        .himg{
+            width:200px;
+            height: 200px;
+        }
+        .htext{
+            margin-left: 20px;
+        }
+        .child1{
+            display:flex;
+            flex-direction: row;
+            width:100%;
+            margin-bottom: 20px;
+        }
+      
+        .holly-right{
+            width:100%;
+            height:150px;
+            border: 2px solid black;
+            text-align: center;
+        }
+    .hcontainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width:70%;
+        margin: auto;
+        padding: 5px;
+        justify-content:center;
+        
+    }
+    .date{
+        margin-top: 12px !important;
+        font-size: 12px;
+        color: #a09999;
+    }
+    .description{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        font-size: 13px;
+        -webkit-box-orient: vertical;
+        color:black;
+    }
+    .title{
+        color:rgb(91, 89, 89);
+    }
+}

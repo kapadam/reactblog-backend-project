@@ -1,0 +1,175 @@
+.title-full-view{
+    font-size: 2em;
+    font-weight: bold;
+}
+.full-view{
+    width:70%;
+    margin: auto;
+}
+
+.full-view-para{
+    margin-top: 20px;
+}
+.link:hover{
+    text-decoration: none;
+}
+@media (max-width:1600px) and (min-width:1221px){
+    .bollywoodContainer{
+        margin: auto;
+        
+    }
+    .food-full-view-img{
+        width:40%;
+        height:300px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .parent{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:70%;
+        margin: auto;
+        padding: 5px;
+        justify-content: space-between;
+        
+    }
+    .fdate{
+        margin-top: 12px !important;
+        font-size: 12px;
+        color: #a09999;
+    }
+    .fdescription{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        font-size: 13px;
+        -webkit-box-orient: vertical;
+        color:black;
+    }
+    .ftitle{
+        color:rgb(91, 89, 89);
+    }
+    .fchild{
+        width:200px;
+        /* height: 500px; */
+        padding: 5px;
+        margin-top: 10px;
+        /* box-shadow: 2px 2px 4px grey; */
+    }
+    .fimg {
+        border-radius: 8px;
+        height: 25vh;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:1220px) and (min-width:951px){
+    .bollywoodContainer{
+        margin: auto;
+        
+    }
+    .food-full-view-img{
+        width:40%;
+        height:300px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .parent{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:70%;
+        margin: auto;
+        padding: 5px;
+        justify-content:center;
+        
+    }
+    .fdescription{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        font-size: 13px;
+        -webkit-box-orient: vertical;
+        color:black;
+    }
+    .ftitle{
+        color:rgb(91, 89, 89);
+    }
+    .fchild{
+        width:280px;
+        /* height: 500px; */
+        padding: 5px;
+        margin-top: 10px;
+        /* box-shadow: 2px 2px 4px grey; */
+    }
+    .fimg {
+        border-radius: 8px;
+        height: 25vh;
+        width: 100%;
+        
+        margin-bottom: 20px;
+    }
+    /* .finner{
+        display: flex;
+    } */
+    .ftext{
+        margin-left:20px;
+    }
+}
+@media (max-width:950px) and (min-width:300px){
+    .bollywoodContainer{
+        margin: auto;
+        
+    }
+    .food-full-view-img{
+        width:40%;
+        height:200px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .parent{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:70%;
+        margin: auto;
+        padding: 5px;
+        justify-content:center;
+        
+    }
+    .fdescription{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        font-size: 13px;
+        -webkit-box-orient: vertical;
+        color:dodgerblue;
+    }
+    .ftitle{
+        color:rgb(91, 89, 89);
+    }
+    .fchild{
+        width:90%;
+        /* height: 500px; */
+        padding: 5px;
+        margin-top: 10px;
+        /* box-shadow: 2px 2px 4px grey; */
+    }
+    .fimg {
+        border-radius: 8px;
+        height: 25vh;
+        width: 200px;
+        
+        margin-bottom: 20px;
+    }
+    .finner{
+        display: flex;
+    }
+    .ftext{
+        margin-left:20px;
+    }
+}
