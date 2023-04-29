@@ -7,12 +7,12 @@ const Navbar = () => {
         <div className='head'><span className='the'>The</span><span className='siren'>Siren</span> </div>
         <div >
         <button className='toggler navbar-toggler' type='button' data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa-solid fa-bars bars"></i>
+        <i class="fa-solid fa-bars"></i>
         </button>
         <div class="collapse" id="navbarToggleExternalContent">
     <div class="bg-light p-4">
       <center>
-      <ul className='navlist1' type="none">
+      <ul className='navlist' type="none">
             <li><Link to='/home' className='li'>Home</Link></li>
             <li><Link to='/bollywood' className='li'>Bollywood</Link></li>
             <li><Link to='/technology' className='li'>Technology</Link></li>
@@ -27,7 +27,7 @@ const Navbar = () => {
   </div>
         </div>
         
-        <ul className='navlist2' id='list' type="none">
+        <ul className='navlist' id='list' type="none">
             <li><Link to='/home' className='li'>Home</Link></li>
             <li><Link to='/bollywood' className='li'>Bollywood</Link></li>
             <li><Link to='/technology' className='li'>Technology</Link></li>
